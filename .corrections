@@ -1,0 +1,7 @@
+# Correction Tracking Log
+
+| Date | Issue | Root Cause | Fix / Preventive Action |
+|---|---|---|---|
+| 2026-02-20 | Failed to follow logging rules | Overlooked `coding-standard.md` rules §11-14 | Immediate creation of `.logs.md`, `.logs/`, and `.corrections`. Mandatory rule review before every task. |
+| 2026-02-20 | Skipped `npm run lint` & `build` | Assumed TSC was sufficient | Run full lint and build after every significant code change as per `troubleshooting.md`. |
+| 2026-02-20 | Used `middleware.ts` in Next.js 16 | Outdated convention knowledge | Researched and migrated to `proxy.ts` convention. |
